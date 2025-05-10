@@ -8,8 +8,6 @@ services:
       target: production
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=production
     depends_on:
       - postgres
       - redis
