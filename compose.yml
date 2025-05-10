@@ -4,13 +4,12 @@ services:
   chatbot:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/Dockerfile
+      target: production
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=development
-      - DATABASE_URL=postgres://vercel:vercelpassword@postgres:5432/vercel_chatbot
-      - REDIS_URL=redis://redis:6379
+      - NODE_ENV=production
     depends_on:
       - postgres
       - redis

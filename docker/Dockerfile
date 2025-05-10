@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:18.18 as production
 
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
