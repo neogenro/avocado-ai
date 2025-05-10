@@ -3,7 +3,7 @@
 # Ensure dependencies are installed
 echo "Installing dependencies..."
 pnpm install
-next build
+pnpm build
 
 # Start server
 echo "Starting server..."
