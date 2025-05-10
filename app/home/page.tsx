@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Button asChild>
-              <Link href="#get-started">Începe Acum</Link>
+              <Link href="/login">Începe Acum</Link>
             </Button>
           </div>
         </div>
