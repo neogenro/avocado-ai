@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
+        <div className="container mx-auto flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold">what-next.me</span>
@@ -40,7 +40,7 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="py-20 md:py-28 bg-gradient-to-b from-[#E8F5E9] to-white dark:from-[#1E3A1E] dark:to-background">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* Services Section */}
         <section id="services" className="bg-muted/50 py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Servicii</div>
@@ -184,7 +184,7 @@ export default function Home() {
 
         {/* How It Works */}
         <section className="py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Procesul</div>
@@ -229,7 +229,7 @@ export default function Home() {
 
         {/* Testimonials Section */}
         <section id="testimonials" className="bg-muted/50 py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Testimoniale</div>
@@ -288,7 +288,7 @@ export default function Home() {
 
         {/* Pricing Section */}
         <section id="pricing" className="py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Prețuri</div>
@@ -373,7 +373,7 @@ export default function Home() {
 
         {/* FAQ Section */}
         <section id="faq" className="bg-muted/50 py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">FAQ</div>
@@ -426,7 +426,7 @@ export default function Home() {
 
         {/* CTA Section */}
         <section id="get-started" className="bg-[#4CAF50] text-white py-20">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -454,7 +454,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="border-t py-6 md:py-10">
-        <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-4 md:flex-row">
           <div className="flex items-center gap-2">
             <Sparkles className="h-6 w-6 text-primary" />
             <span className="text-lg font-bold">what-next.me</span>
