@@ -47,18 +47,14 @@ export default function Home() {
                   Coaching AI Personalizat
                 </div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Descoperă Următorul Tău Pas cu <span className="text-primary">what-next.me</span>
+                  Descoperă Următorul Tău Pas cu <span className="text-primary whitespace-nowrap">what-next.me</span>
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Coaching personalizat cu AI care se adaptează nevoilor tale unice în carieră, parenting, relații și
-                  dezvoltare personală.
+                  Consiliere instantă în carieră, relații, parenting și obiective personale. Discută cu AI-ul nostru antrenat să te ajute, fără judecăți.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg" className="gap-1">
-                    Începe Călătoria <ArrowRight className="h-4 w-4" />
-                  </Button>
-                  <Button size="lg" variant="outline">
-                    Vezi Demo
+                  <Button asChild size="lg" className="gap-1">
+                    <Link href="/">Începe Călătoria</Link>
                   </Button>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -204,19 +200,19 @@ export default function Home() {
                   step: "1",
                   title: "Evaluare Inițială",
                   description:
-                    "Completează un chestionar detaliat pentru a identifica nevoile și obiectivele tale specifice.",
+                    "Evaluare inițială  - Scrie ce te preocupă. Descrie exact cum ai vorbi cu un prieten de încredere.",
                 },
                 {
                   step: "2",
-                  title: "Plan Personalizat",
+                  title: "Răspuns instant",
                   description:
-                    "Primești un plan de coaching adaptat situației tale, cu pași concreți și resurse relevante.",
+                    "Vei primi un răspuns detaliat, bine structurat și adaptat situației tale. Clar. Aplicabil. Empatic.",
                 },
                 {
                   step: "3",
-                  title: "Coaching Continuu",
+                  title: "Plan personalizat",
                   description:
-                    "Beneficiezi de sesiuni interactive cu AI-ul nostru, feedback constant și ajustări în timp real.",
+                    "Tu decizi frecvența, momentul și durata sesiunilor interactive de coaching cu AI-ul nostru.",
                 },
               ].map((item, index) => (
                 <div key={index} className="flex flex-col items-center text-center">
