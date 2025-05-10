@@ -19,24 +19,26 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'Ce te frământă',
-      label: 'legat de jobul sau profesia ta în perioada asta?',
-      action: 'Ce te frământă legat de jobul sau profesia ta în perioada asta?',
+      title: 'Carieră, dezvoltare profesională ',
+      label: 'Vreau o schimbare în cariera mea',
+      action:
+        'Carieră, dezvoltare profesională   - Vreau o schimbare în cariera mea',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Parenting',
+      label: `Vreau să devin un părinte mai bun/calm/echilibrat`,
+      action: `Parenting - Vreau să devin un părinte mai bun/calm/echilibrat`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Relații',
+      label: `Am nevoie de sfaturi legate de relația mea`,
+      action: `Relații - Am nevoie de sfaturi legate de relația mea`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Obiective personale',
+      label: 'Ajută-mă cu un plan legat de obiectivele mele personale',
+      action:
+        'Obiective personale  - Ajută-mă cu un plan legat de obiectivele mele personale',
     },
   ];
 
