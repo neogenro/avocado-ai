@@ -437,15 +437,16 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button size="lg" variant="secondary" className="gap-1 bg-white text-[#4CAF50] hover:bg-[#E8F5E9]">
-                  Începe Perioada Gratuită <ArrowRight className="h-4 w-4" />
+                <Button asChild size="lg" variant="secondary" className="gap-1 bg-white text-[#4CAF50] hover:bg-[#E8F5E9]">
+                  <Link href="/">Începe Perioada Gratuită <ArrowRight className="h-4 w-4" /></Link>
                 </Button>
                 <Button
+                  asChild
                   size="lg"
                   variant="outline"
                   className="bg-transparent text-white border-white/20 hover:bg-white/10"
                 >
-                  Programează Demo
+                  <Link href="/register">Programează Demo</Link>
                 </Button>
               </div>
               <p className="text-sm text-white/80">Fără card de credit. 7 zile gratuit.</p>
