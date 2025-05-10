@@ -362,7 +362,7 @@ export default function Home() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" variant={plan.highlighted ? "default" : "outline"}>
-                      {plan.cta}
+                      <Link href="/login">{plan.cta}</Link>
                     </Button>
                   </CardFooter>
                 </Card>
