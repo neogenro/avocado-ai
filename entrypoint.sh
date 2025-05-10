@@ -3,7 +3,8 @@
 # Ensure dependencies are installed
 echo "Installing dependencies..."
 pnpm install
+pnpm build
 
-# Start development server
-echo "Starting dev server..."
-pnpm dev
+# Start server
+echo "Starting server..."
+pnpm start
